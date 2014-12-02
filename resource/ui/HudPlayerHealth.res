@@ -5,19 +5,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"100"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"r120"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"xpos"			"c-200"		[$WIN32]
+		"ypos"			"r180"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning"	"0.60"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 	"PlayerStatusHealthImage"
@@ -86,7 +82,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
+		"font"			"ChunkFiveEx48"
 		"fgcolor"		"TanDark"
 	}								
 	"PlayerStatusBleedImage"
@@ -141,7 +137,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"85"
+		"xpos"			"0"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
